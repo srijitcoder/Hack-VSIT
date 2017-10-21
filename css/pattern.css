@@ -1,0 +1,39 @@
+.pattern-1 {
+    position: absolute;
+    bottom: -350px;
+    left: 0px;
+}
+
+.pattern-1 img {
+    width: 350px;
+}
+
+.pattern-2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.pattern-2 img {
+    width: 380px;
+}
+
+.shape-1 {
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+}
+
+.shape-1 img {
+    width: 350px;
+}
+
+.shape-2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.shape-2 img {
+    width: 500px;
+}
