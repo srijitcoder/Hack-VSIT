@@ -295,4 +295,331 @@ content {
     line-height: 150%;
     font-weight: 600;
     margin-top: 10px;
+    color: #535353;
 }
+
+.sponsors {
+    width: 80%;
+    padding: 40px 20px;
+}
+
+.sponsors img {
+    filter: saturate(0%) brightness(70%) contrast(1000%);
+    width: 100px;
+    display: inline-block;
+    margin: 15px 40px;
+}
+
+.logo {
+    width: 600px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 200px;
+}
+
+footer img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer .footer {
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: -15px;
+    text-align: center;
+    background: #2c3a54;
+}
+
+footer .footer .social a i {
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.footer .credit {
+    margin-top: 30px;
+}
+
+.footer .credit p {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.credit p a {
+    padding: 0px 3px;
+    padding-bottom: 2px;
+    border-bottom: white 2px solid;
+    color: white;
+    text-decoration: none;
+}
+
+.credit .line {
+    width: 30px;
+    vertical-align: super;
+    background: white;
+    height: 2px;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+button {
+    background: rgb(15, 189, 184);  
+    width: 300px;
+    border: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 5px solid  rgb(5, 92, 89);
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 18px;
+    transition: all 0.2s linear;
+}
+
+button:active {
+    transition: all 0.2s linear;
+    border-bottom: 0px;
+}
+
+anim {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999999999;
+}
+
+anim .wrap {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top:0px;
+    border: 0px;
+    z-index: 999999999999999;
+}
+
+
+anim .main .main-cent h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+anim .main .main-cent .line {
+    width: 200px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #010f23;
+    transition: all 5s ease-in;
+}
+
+anim .main .main-cent .line .load {
+    width: 0px;
+    height: 100%;
+}
+
+anim .main .main-cent .line .load.active {
+    background: white;
+    width: 100%;
+    transition: width 7s ease-in;
+}
+
+@media screen and (max-width:1690px)
+{ 
+    .logo {
+        width: 570px;
+    }
+
+    .main-wrap h1 {
+        font-size: 100px;
+    }
+
+    .head p {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 15px;
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .juggad, .collab {
+        right: -150px;
+    }
+
+    .track-wrap h1 {
+        font-size: 18px;
+    }
+
+    .img img {
+        width: 350px;
+    }
+
+    .team-content h1 {
+        font-size: 45px;
+    }
+
+    .team-content p {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 280px;
+    }
+}
+
+@media screen and (max-width:1590px)
+{ 
+    .logo {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:900px)
+{ 
+
+    lines .wrap {
+        border-right: 1.5px solid rgba(0, 0, 0, 0.04); 
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+    .logo {
+        width: 300px;
+    }
+
+    .main-wrap .content {
+        width: 90%;
+    }
+
+    .main-wrap h1 {
+        font-size: 70px;
+    }
+
+    .head p {
+        font-size: 15px;
+    }
+
+    .head .line {
+        width: 30%;
+        margin-left: 7px;
+        vertical-align: baseline;
+    }
+
+    .text {
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .juggad {
+        right: 10px;
+        width: 100%;
+        display: none;
+    }
+
+    .track {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .track h1 {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .track p {
+        font-size: 11px;
+    }
+
+    .track {
+        margin-left: 0px;
+    }
+
+    .collab {
+        right: 20px;
+        display: none;
+    }
+
+    .sponsors {
+        width: 90%;
+    }
+
+    .sponsors img {
+        width: 80px;
+    }
+
+    .img {
+        width: 90%;
+    }
+
+    .img img {
+        width: 90%;
+    }
+
+    .img {
+        margin-left: 30px;
+    }
+
+    .img.right {
+        margin-left: 0px;
+    }
+
+    .team-content {
+        bottom: 20px;
+        left: 0px;
+    }
+
+    .img.right .team-content {
+        bottom: 20px;
+        right: 0px;
+    }
+
+    .team-content h1 {
+        font-size: 25px;
+    }
+
+    .team-content .line {
+        width: 20%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
+    .sponsors img {
+        margin: 15px 20px;
+    }
+
+    .footer .credit p {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 100px;
+    }
+
+    button {
+        margin-top: 0px;
+        border-radius: 5px;
+        font-size: 10px;
+        width: 150px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80%;
+    }
+}
+
+
+
