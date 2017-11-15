@@ -1,11 +1,11 @@
 .shape-1 {
     position: absolute;
-    bottom: -100px;
+    bottom: -20px;
     left: 0px;
 }
 
 .shape-1 img {
-    width: 350px;
+    width: 600px;
 }
 
 .shape-2 {
@@ -20,22 +20,22 @@
 
 .shape-10 {
     position: absolute;
-    bottom: -100px;
-    right: 0px;
+    bottom: -20px;
+    right: -20px;
 }
 
 .shape-10 img {
-    width: 300px;
+    width: 600px;
 }
 
 .shape-11 {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -20px;
+    left: -20px;
 }
 
 .shape-11 img {
-    width: 150px;
+    width: 600px;
 }
 
 .shape-3 {
@@ -45,7 +45,7 @@
 }
 
 .shape-3 img {
-    width: 300px;
+    width: 500px;
 }
 
 .shape-5 {
