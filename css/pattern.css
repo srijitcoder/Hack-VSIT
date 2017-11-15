@@ -1,6 +1,6 @@
 .shape-1 {
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     left: 0px;
 }
 
@@ -112,7 +112,7 @@
     } 
 
     .shape-1 img {
-        width: 250px;
+        width: 350px;
     } 
 
     .shape-2 img {
@@ -120,26 +120,26 @@
     }
 
     .shape-10 img {
-        width: 200px;
+        width: 400px;
     }
 
     .shape-11 img {
-        width: 70px;
+        width: 400px;
     }
 }
 
 @media screen and (max-width:900px)
 { 
     .shape-10 img {
-        width: 100px;
+        width: 200px;
     }
 
     .shape-11 img {
-        width: 80px;
+        width: 150px;
     }
 
     .shape-1 img {
-        width: 100px;
+        width: 200px;
     } 
 
     .shape-10 {

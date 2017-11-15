@@ -437,7 +437,7 @@ anim .main .main-cent .line .load.active {
 @media screen and (max-width:1690px)
 { 
     .logo {
-        width: 570px;
+        width: 300px;
     }
 
     .main-wrap h1 {
@@ -482,7 +482,7 @@ anim .main .main-cent .line .load.active {
 @media screen and (max-width:1590px)
 { 
     .logo {
-        width: 500px;
+        width: 230px;
     }
 }
 
@@ -497,7 +497,7 @@ anim .main .main-cent .line .load.active {
         overflow-x: hidden;
     }
     .logo {
-        width: 300px;
+        width: 200px;
     }
 
     .main-wrap .content {
@@ -616,9 +616,12 @@ anim .main .main-cent .line .load.active {
         width: 150px;
         padding: 10px;
     }
+}
 
+@media screen and (max-width:380px)
+{ 
     .logo {
-        width: 80%;
+        width: 150px;
     }
 }
 
