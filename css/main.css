@@ -20,6 +20,7 @@ body {
   
 html, body {
     height: 100%;
+    width: 100%;
 }
   
 *:focus {
@@ -305,8 +306,7 @@ content {
 }
 
 .sponsors img {
-    filter: saturate(0%) brightness(70%) contrast(1000%);
-    width: 100px;
+    width: 120px;
     display: inline-block;
     margin: 15px 40px;
 }
