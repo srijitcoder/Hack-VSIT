@@ -434,6 +434,13 @@ anim .main .main-cent .line .load.active {
     transition: width 7s ease-in;
 }
 
+.power {
+    margin-top: 10px;
+    color: rgb(25, 91, 157);
+    font-size: 12px;
+    font-weight: 600;
+}
+
 @media screen and (max-width:1690px)
 { 
     .logo {
