@@ -309,6 +309,7 @@ content {
     width: 120px;
     display: inline-block;
     margin: 15px 40px;
+    vertical-align: middle;
 }
 
 .logo {
