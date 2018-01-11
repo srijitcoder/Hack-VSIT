@@ -101,5 +101,5 @@ sr.reveal('.shape', {
 
 $(document).ready(function(){
     var spn = $(".sponsors img").length+".";
-    $('.spon_num').html(spn);
+    $('.spons_numb').html(spn);
 });
