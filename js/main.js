@@ -102,4 +102,7 @@ sr.reveal('.shape', {
 $(document).ready(function(){
     var spn = $(".sponsors img").length+".";
     $('.spons_numb').html(spn);
+
+    var trk = "0"+$(".track").length+".";
+    $('#tracks').html(trk);
 });

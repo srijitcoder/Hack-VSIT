@@ -284,6 +284,7 @@ content {
     display: inline-block;
     width: 35%;
     margin: 20px 20px;
+    vertical-align: top;
 }
 
 .track-wrap h1 {
