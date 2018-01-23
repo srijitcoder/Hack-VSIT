@@ -443,6 +443,10 @@ anim .main .main-cent .line .load.active {
     font-weight: 600;
 }
 
+.fdc {
+	width:330px;
+}
+
 @media screen and (max-width:1690px)
 { 
     .logo {
@@ -501,6 +505,10 @@ anim .main .main-cent .line .load.active {
     lines .wrap {
         border-right: 1.5px solid rgba(0, 0, 0, 0.04); 
     }
+
+.fdc {
+	width:80%;
+}
 
     body {
         overflow-x: hidden;
