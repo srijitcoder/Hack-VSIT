@@ -444,7 +444,7 @@ anim .main .main-cent .line .load.active {
 }
 
 .fdc {
-	width:330px;
+	width:330px !important;
 }
 
 @media screen and (max-width:1690px)
@@ -507,7 +507,7 @@ anim .main .main-cent .line .load.active {
     }
 
 .fdc {
-	width:80%;
+	width:80% !important;
 }
 
     body {
