@@ -665,7 +665,6 @@ anim .main .main-cent .line .load.active {
     }
 
     .team-content .line {
-        width: 20%;
         display: inline-block;
         vertical-align: middle;
         margin-left: 5px;
