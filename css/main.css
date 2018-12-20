@@ -639,7 +639,7 @@ anim .main .main-cent .line .load.active {
     }
 
     .judges img {
-        width: 90%;
+        width: 100%;
     }
 
     .img {
@@ -705,6 +705,12 @@ anim .main .main-cent .line .load.active {
         font-size: 10px;
         width: 150px;
         padding: 10px;
+    }
+
+    .judges {
+        display: inline-block;
+        margin: 0px 10px;
+        margin-top: 50px;
     }
 }
 
