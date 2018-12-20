@@ -204,6 +204,12 @@ content {
     position: relative;
 }
 
+.judges {
+    display: inline-block;
+    margin: 0px 70px;
+    margin-top: 50px;
+}
+
 .team-content {
     position: absolute;
     bottom: 180px;
@@ -226,11 +232,39 @@ content {
     display: inline-block;
 }
 
+.judge-content {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.judge-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 192, 255);
+}
+
+.judge-content p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    vertical-align: sub;
+    margin-top: -33px;
+    display: inline-block;
+}
+
+.judge-content .line {
+    display: inline-block;
+    width: 150px;
+    height: 3px;
+    vertical-align: super;
+    background: black;
+}
+
 .team-content .line {
     display: inline-block;
-    width: 200px;
+    width: 150px;
     height: 3px;
-    margin-left: 20px;
     vertical-align: super;
     background: black;
 }
@@ -244,6 +278,12 @@ content {
     width:500px;
     filter: grayscale(100);
     box-shadow: 0 50px 80px 0 rgba(0,0,0,.2);
+}
+
+.judges img {
+    width:300px;
+    filter: grayscale(100);
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,.2);
 }
 
 .img.right {
@@ -372,17 +412,17 @@ footer .footer .social a i {
 
 button {
     background: rgb(40, 195, 238);
-    width: 300px;
+    width: 280px;
     border: 0px;
     font-size: 17px;
     font-weight: bold;
     letter-spacing: 1px;
     border-bottom: 5px solid rgb(25, 91, 157);
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
     color: white;
-    padding: 18px;
+    padding: 12px;
     transition: all 0.2s linear;
 }
 
@@ -480,11 +520,23 @@ anim .main .main-cent .line .load.active {
         width: 350px;
     }
 
+    .judges img {
+        width: 300px;
+    }
+
     .team-content h1 {
         font-size: 45px;
     }
 
     .team-content p {
+        font-size: 20px;
+    }
+
+    .judge-content h1 {
+        font-size: 35px;
+    }
+
+    .judge-content p {
         font-size: 20px;
     }
 
@@ -496,7 +548,7 @@ anim .main .main-cent .line .load.active {
 @media screen and (max-width:1590px)
 { 
     .logo {
-        width: 230px;
+        width: 300px;
     }
 }
 
@@ -586,6 +638,10 @@ anim .main .main-cent .line .load.active {
         width: 90%;
     }
 
+    .judges img {
+        width: 90%;
+    }
+
     .img {
         margin-left: 30px;
     }
@@ -609,6 +665,22 @@ anim .main .main-cent .line .load.active {
     }
 
     .team-content .line {
+        width: 20%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
+    .judge-content {
+        bottom: 20px;
+        left: 0px;
+    }
+
+    .judge-content h1 {
+        font-size: 25px;
+    }
+
+    .judge-content .line {
         width: 20%;
         display: inline-block;
         vertical-align: middle;
