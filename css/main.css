@@ -265,7 +265,7 @@ content {
     display: inline-block;
     width: 150px;
     height: 3px;
-    vertical-align: super;
+    vertical-align: middle;
     background: black;
 }
 
