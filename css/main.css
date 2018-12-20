@@ -716,3 +716,9 @@ anim .main .main-cent .line .load.active {
 
 
 
+@media screen and (max-width:900px)
+{ 
+    #phnrem {
+        display: none;
+    }
+}
