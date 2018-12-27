@@ -419,7 +419,7 @@ button {
     letter-spacing: 1px;
     border-bottom: 5px solid rgb(25, 91, 157);
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
     color: white;
     padding: 12px;
@@ -480,7 +480,7 @@ anim .main .main-cent .line .load.active {
 .power {
     margin-top: 10px;
     color: rgb(25, 91, 157);
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
 }
 
