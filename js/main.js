@@ -106,5 +106,5 @@ $(document).ready(function(){
 
 
 $("#openPortal").click(function(){
-    window.open('https://hack-vsit.tech/', '_system');
+    window.open('http://159.89.161.92', '_system');
 });
