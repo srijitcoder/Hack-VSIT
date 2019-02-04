@@ -103,3 +103,8 @@ $(document).ready(function(){
     var spn = $(".sponsors img").length+".";
     $('.spons_numb').html(spn);
 });
+
+
+$("#openPortal").click(function(){
+    window.open('http://159.89.161.92', '_system');
+});
