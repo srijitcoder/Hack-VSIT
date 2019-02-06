@@ -355,7 +355,7 @@ content {
 }
 
 .logo {
-    width: 350px;
+    width: 450px;
 }
 
 footer {
@@ -488,10 +488,19 @@ anim .main .main-cent .line .load.active {
 	width:330px !important;
 }
 
+.designation {
+    color:#28baee !important;
+    margin-top: 0px !important;
+}
+
+.track-wrap p.name {
+    color:black;
+}
+
 @media screen and (max-width:1690px)
 { 
     .logo {
-        width: 300px;
+        width: 420px;
     }
 
     .main-wrap h1 {
@@ -548,7 +557,7 @@ anim .main .main-cent .line .load.active {
 @media screen and (max-width:1590px)
 { 
     .logo {
-        width: 300px;
+        width: 370px;
     }
 }
 
@@ -567,7 +576,7 @@ anim .main .main-cent .line .load.active {
         overflow-x: hidden;
     }
     .logo {
-        width: 200px;
+        width: 350px;
     }
 
     .main-wrap .content {
@@ -717,7 +726,7 @@ anim .main .main-cent .line .load.active {
 @media screen and (max-width:380px)
 { 
     .logo {
-        width: 150px;
+        width: 290px;
     }
 }
 
