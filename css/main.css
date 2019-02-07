@@ -484,6 +484,10 @@ anim .main .main-cent .line .load.active {
     font-weight: 600;
 }
 
+.power sup {
+    color:rgb(25, 91, 157) !important;
+}
+
 .fdc {
 	width:330px !important;
 }
