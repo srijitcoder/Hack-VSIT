@@ -213,7 +213,7 @@ content {
 .team-content {
     position: absolute;
     bottom: 180px;
-    left: -130px;
+    left: 12px;
 }
 
 .team-content h1 {
@@ -270,7 +270,7 @@ content {
 }
 
 .img.right .team-content {
-    right: -130px;
+    right: -10px;
     text-align: right;
 }
 
@@ -292,19 +292,21 @@ content {
 
 .team-social {
     position: absolute;
-    top: 130px;
-    left: -40px;
+    bottom: 142px;
+    left: 14px;
+    
 }
 
 .img.right .team-social {
     position: absolute;
-    top: 130px;
-    right: -40px;
+    top: 20px;
+    left: 93%;
 }
 
 .team-social ul, li {
     list-style: none;
 }
+.team-social ul{display:flex;justify-content: space-between; width:10%;}
 
 .team-social ul li {
     padding: 8px 0px;
