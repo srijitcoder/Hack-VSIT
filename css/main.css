@@ -738,9 +738,16 @@ anim .main .main-cent .line .load.active {
 
 
 
-@media screen and (max-width:900px)
+@media screen and (max-width:1000px)
 { 
     #phnrem {
         display: none;
+    }
+    .team-social {
+        top:175px;
+        left:4px;
+    }
+    .img.right .team-social{
+        top:175px;left:74%;
     }
 }
