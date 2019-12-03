@@ -751,3 +751,7 @@ anim .main .main-cent .line .load.active {
         top:175px;left:74%;
     }
 }
+
+.p-1 {
+    padding:.25rem!important;
+}
