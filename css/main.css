@@ -755,3 +755,9 @@ anim .main .main-cent .line .load.active {
 .p-1 {
     padding:.25rem!important;
 }
+
+.bg-black {
+    background-color:black;
+    border-radius: 10px;
+    padding:3px;
+}
