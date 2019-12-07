@@ -309,7 +309,7 @@ content {
 .team-social ul{display:flex;justify-content: space-between; width:10%;}
 
 .team-social ul li {
-    padding: 8px 0px;
+    padding: 8px 3px;
 }
 
 .team-social ul li a i {
