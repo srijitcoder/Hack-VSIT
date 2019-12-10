@@ -786,6 +786,7 @@ anim .main .main-cent .line .load.active {
     text-transform: lowercase;
     margin-left:auto;
     margin-right:auto;
+    width:auto;
 }
 
 #devfolio-apply-now:not([disabled]) {
@@ -794,4 +795,10 @@ anim .main .main-cent .line .load.active {
 
 #devfolio-apply-now:hover {
     background-color: #2954BF !important;
+}
+
+@media screen and (max-width: 900px) {
+    #devfolio-apply-now {
+        font-size:15px;
+    }
 }
