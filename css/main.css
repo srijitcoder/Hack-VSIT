@@ -212,7 +212,7 @@ content {
 
 .team-content {
     position: absolute;
-    bottom: 180px;
+
     left: 12px;
 }
 
@@ -292,15 +292,15 @@ content {
 
 .team-social {
     position: absolute;
-    bottom: 142px;
+    bottom: -38px;
     left: 14px;
     
 }
 
 .img.right .team-social {
     position: absolute;
-    top: 20px;
-    left: 93%;
+ 
+    left: 88%;
 }
 
 .team-social ul, li {
