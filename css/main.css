@@ -856,10 +856,11 @@ anim .main .main-cent .line .load.active {
         max-width:100%;
     }
     .team-row .img img {
-        max-width:90%;
+        max-width:80%;
     }
     .team-row .img {
-        padding-bottom:150px;
+        padding-bottom:135px;
+        padding-top:50px;
         margin-left:0px;
     }
     .team-row .img.right {
