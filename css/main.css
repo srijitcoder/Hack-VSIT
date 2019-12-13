@@ -750,6 +750,10 @@ anim .main .main-cent .line .load.active {
     background-color: #2954BF !important;
 }
 
+#devfolio-apply-now svg {
+    fill:white!important;
+}
+
 @media screen and (max-width: 900px) {
     #devfolio-apply-now {
         font-size:15px;
