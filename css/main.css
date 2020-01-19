@@ -206,8 +206,8 @@ content {
 
 .judges {
     display: inline-block;
-    margin: 0px 70px;
-    margin-top: 50px;
+   /* margin: 0px 70px;
+    margin-top: 50px; */
 }
 
 .team-content {
