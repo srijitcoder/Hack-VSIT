@@ -736,10 +736,14 @@ anim .main .main-cent .line .load.active {
 
 .judges img {
     width: 300px!important;
-    filter: grayscale(.75)!important;
+    filter: grayscale(.95)!important;
     box-shadow: 0 30px 50px 0 rgba(0, 0, 0, .2)
 }
-
+.cor img {
+    width: 300px!important;
+    filter: grayscale(.20)!important;
+    box-shadow: 0 30px 50px 0 rgba(0, 0, 0, .2)
+}
 .img.right {
     text-align: right
 }
@@ -781,7 +785,7 @@ li {
 
 @media screen and (max-width:1150px) {
     .team-row .img img {
-        max-width: 225px
+        max-width: 220px
     }
 }
 
