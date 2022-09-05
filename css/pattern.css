@@ -159,3 +159,14 @@
     width: 120px;
   }
 }
+
+.left-shape {
+  position: fixed;
+  left: -34%;
+}
+
+@media (max-width: 768px) {
+  .left-shape {
+    left: -5%;
+  }
+}
