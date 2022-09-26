@@ -840,3 +840,12 @@ li {
 .shape-5 img{
     z-index: -5;
 }
+
+@media screen and (max-width:6720px) {
+    .shape-5{
+        display: none;
+    }
+    .shape-5 img{
+        display: none;
+    }
+}
