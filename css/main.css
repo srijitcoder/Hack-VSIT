@@ -834,14 +834,13 @@ li {
 
 .shape-5 {
     z-index: -5;
-    visibility: none;
 }
 
 .shape-5 img{
     z-index: -5;
 }
 
-@media screen and (max-width:6720px) {
+@media screen and (max-width:768px){
     .shape-5{
         display: none;
     }
