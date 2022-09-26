@@ -126,7 +126,7 @@ content {
     transform-origin: bottom left;
     -webkit-transform-origin: bottom left;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased
+    font-smoothing: antialiased;
 }
 
 .juggad .line,
@@ -833,5 +833,10 @@ li {
 }
 
 .shape-5 {
-    z-index: -1;
+    z-index: -5;
+    visibility: none;
+}
+
+.shape-5 img{
+    z-index: -5;
 }
