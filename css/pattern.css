@@ -1,156 +1,172 @@
 .shape-1 {
-    position: absolute;
-    bottom: -10px;
-    left: 0px;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
 }
 
 .shape-1 img {
-    width: 600px;
+  width: 600px;
 }
 
 .shape-2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .shape-2 img {
-    width: 500px;
+  width: 500px;
 }
 
 .shape-10 {
-    position: absolute;
-    bottom: -20px;
-    right: -20px;
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
 }
 
 .shape-10 img {
-    width: 600px;
+  width: 600px;
 }
 
 .shape-11 {
-    position: absolute;
-    top: -20px;
-    left: -20px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
 }
 
 .shape-11 img {
-    width: 600px;
+  width: 600px;
 }
 
 .shape-3 {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 .shape-3 img {
-    width: 500px;
+  width: 500px;
 }
 
 .shape-5 {
-    position: absolute;
-    bottom: -50px;
-    left: 0px;
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
 }
 
 .shape-5 img {
-    width: 300px;
+  width: 300px;
 }
 
 .shape-4 {
-    position: absolute;
-    top: 50px;
-    right: 0px;
-    z-index: -1;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: -1;
 }
 
 .shape-4 img {
-    width: 300px;
+  width: 300px;
 }
 
-
 .shape-6 {
-    position: absolute;
-    bottom: -200px;
-    right: 0px;
-    z-index: -1;
+  position: absolute;
+  bottom: -200px;
+  right: 0px;
+  z-index: -1;
 }
 
 .shape-6 img {
-    width: 300px;
+  width: 300px;
 }
 
 .shape-7 {
-    position: absolute;
-    top: 400px;
-    left: 0px;
-    z-index: -1;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  z-index: -1;
 }
 
 .shape-7 img {
-    width: 300px;
+  width: 300px;
 }
 
-
 .shape-8 {
-    position: absolute;
-    bottom: -200px;
-    right: 0px;
-    z-index: -1;
+  position: absolute;
+  bottom: -200px;
+  right: 0px;
+  z-index: -1;
 }
 
 .shape-8 img {
-    width: 300px;
+  width: 300px;
 }
 
+@media screen and (max-width: 1690px) {
+  .shape-3 img,
+  .shape-4 img,
+  .shape-5 img,
+  .shape-6 img,
+  .shape-7 img,
+  .shape-8 img {
+    width: 200px;
+  }
 
-@media screen and (max-width:1690px)
-{
-    .shape-3 img, .shape-4 img, .shape-5 img, .shape-6 img, .shape-7 img, .shape-8 img {
-        width:200px;
-    } 
+  .shape-1 img {
+    width: 350px;
+  }
 
-    .shape-1 img {
-        width: 350px;
-    } 
+  .shape-2 img {
+    width: 350px;
+  }
 
-    .shape-2 img {
-        width: 350px;
-    }
+  .shape-10 img {
+    width: 400px;
+  }
 
-    .shape-10 img {
-        width: 400px;
-    }
-
-    .shape-11 img {
-        width: 400px;
-    }
+  .shape-11 img {
+    width: 400px;
+  }
 }
 
-@media screen and (max-width:900px)
-{ 
-    .shape-10 img {
-        width: 200px;
-    }
+@media screen and (max-width: 900px) {
+  .shape-10 img {
+    width: 200px;
+  }
 
-    .shape-11 img {
-        width: 150px;
-    }
+  .shape-11 img {
+    width: 150px;
+  }
 
-    .shape-1 img {
-        width: 200px;
-    } 
+  .shape-1 img {
+    width: 200px;
+  }
 
-    .shape-10 {
-        bottom: -40px;
-    }
+  .shape-10 {
+    bottom: -40px;
+  }
 
-    .shape-2 img {
-        width: 200px;
-    }
+  .shape-2 img {
+    width: 200px;
+  }
 
-    .shape-3 img, .shape-4 img, .shape-5 img, .shape-6 img, .shape-7 img, .shape-8 img {
-        width:120px;
-    } 
+  .shape-3 img,
+  .shape-4 img,
+  .shape-5 img,
+  .shape-6 img,
+  .shape-7 img,
+  .shape-8 img {
+    width: 120px;
+  }
+}
+
+.left-shape {
+  position: fixed;
+  left: -34%;
+}
+
+@media (max-width: 768px) {
+  .left-shape {
+    left: -5%;
+  }
 }

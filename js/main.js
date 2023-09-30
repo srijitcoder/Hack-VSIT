@@ -98,3 +98,36 @@ sr.reveal('.shape', {
 });
 
 
+
+$(document).ready(function(){
+    var spn = $(".sponsors img").length+".";
+    $('.spons_numb').html(spn);
+});
+
+
+$("#openPortal").click(function(){
+    window.open('http://159.89.161.92', '_system');
+});
+
+
+//devfolio integration
+document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'hackvsit-2020',
+    }
+
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
